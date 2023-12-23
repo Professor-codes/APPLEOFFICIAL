@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+
+}
+
+nav {
+  width: 100%;
+  height: 48px;
+  background: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Tajawal', sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 18px;
+  font-size: 15px;
+}
+
+nav ul li a {
+  font-size: 14px;
+  color: #adadad;
+  transition: 600ms;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+/* --- sub nav --- */
+nav.sub-nav {
+  color: white;
+  font-size: 14px;
+  background-color: #1d1d1f;
+}
+
+.sub-nav a {
+  color: #0261c0;
+}
+
+/*--- section welcome ---*/
+.welcome {
+  width: 100%;
+  height: 745px;
+  height: 44rem;
+  background-image: url("/Images/image4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.welcome h1 {
+  color: white;
+  font-size: 56px;
+  font-weight: bolder;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  position: relative;
+  bottom: 196px;
+  /* left: 62px; */
+  display: flex;
+  justify-content: center;
+}
+
+.welcome h3 {
+  color: rgb(255, 255, 255);
+  font-size: 33px;
+  font-weight: 100;
+  position: relative;
+  bottom: 222px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome h4 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 230px;
+}
+
+.welcome h4 a {
+  color: #0861b6;
+  font-size: 22px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.welcome h4 a:hover {
+  color: #ffffff;
+  transition: 800ms;
+}
+
+/* section product max */
+.product-phone {
+  background-color: #fff;
+  height: 760px;
+}
+
+.pro-img {
+  width: 100%;
+}
+
+.product-phone h1 {
+  font-size: 56px;
+  font-weight: bolder;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.product-phone h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+
+/* section watch */
+div.product-wch {
+  width: 100%;
+  height: 854px;
+  display: block;
+  background-color: black;
+}
+
+.pro-watch {
+  width: 100%;
+  height: 710px;
+}
+
+.product-wch h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 3px;
+  position: relative;
+  bottom: 682px;
+  font-weight: 900;
+  font-size: 38px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.product-wch p {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 668px;
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: 5px;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.product-wch h4 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 600;
+  position: relative;
+  bottom: 333px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.pro-block {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  bottom: 150px;
+  background-color: black;
+}
+
+/* watch button */
+.wch-btn {
+  margin: 0 16px;
+  left: 632px;
+  bottom: 305px;
+  position: relative;
+}
+
+.button-18 {
+  align-items: center;
+  background-color: #0A66C2;
+  background-color: #f5f5f7;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Sora', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid white;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+/*--- section product ---*/
+.product-all {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  cursor: pointer;
+}
+
+.container {
+  width: 1070px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px; */
+  /* background: #f1f1f1; */
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 20px;
+}
+
+.grid-product {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+
+.grid-product img {
+  width: 664px;
+}
+
+.grid-detail {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.grid-detail h1 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.grid-detail p {
+  transition: .5s;
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: 400;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.grid-detail h6 {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+
+.grid-detail h6 a {
+  color: #1573d0;
+
+}
+
+
+/*-------*/
+.grid-full {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-product-full {
+  background: #f1f1f1;
+  grid-column: span 3;
+  display: flex;
+  position: relative;
+}
+
+.grid-detail-sum {
+  position: absolute;
+  top: 35%;
+  right: 12%;
+  text-align: center;
+}
+
+.grid-detail-sum h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.grid-detail-sum p {
+  margin: 20px 0;
+}
+
+.grid-detail-sum a {
+  color: #3498db;
+}
+
+.grid-detail-sum a:hover {
+  text-decoration: underline;
+}
+
+/* product show */
+section.product-show {
+  height: 788px;
+  width: 100%;
+}
+
+.img-slider {
+  position: relative;
+  width: 80vw;
+  height: 400px;
+  left: 148px;
+  bottom: 36px;
+}
+
+.img-slider .slider-container {
+  position: absolute;
+  width: 300%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  animation: slider 26s infinite;
+}
+
+.img-slider .slider-container .slide {
+  position: relative;
+  width: 33.33333333%;
+  height: 100%;
+  float: left;
+  overflow: hidden
+}
+
+.slide {
+  padding: 0 50px;
+
+}
+
+.img-slider .slider-container .slide img {
+  display: block;
+  width: 100%;
+  height: 100%
+}
+
+@keyframes slider {
+
+  0%,
+  25%,
+  100% {
+    left: 0
+  }
+
+  30%,
+  55% {
+    left: -100%
+  }
+
+  60%,
+  85% {
+    left: -200%
+  }
+}
+
+/* product tv */
+div.product-tv {
+  position: relative;
+  top: 200px;
+  width: 202px;
+  margin: auto;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+.product-tv h1 {
+  position: relative;
+  left: 12px;
+}
+
+.product-tv p {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+/*--- footer ---*/
+footer {
+  width: 100%;
+  height: 864px;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-main {
+  width: 1030px;
+}
+
+.footer-detail {
+  color: #95a5a6;
+  padding: 26px 0;
+  border-bottom: 1px solid #bdc3c7;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.footer-detail u {
+  color: #727171;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-welcome {
+  display: flex;
+  margin: 20px 0;
+  font-size: .8rem;
+  color: #4a4a4b;
+}
+
+.footer-welcome i {
+  margin-right: 10px;
+}
+
+.footer-welcome p {
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-ul ul {
+  list-style: none;
+}
+
+.footer-ul ul li {
+  margin: 7px 0;
+}
+
+.footer-ul ul li h4 {
+  color: #4a4a4b;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-ul ul li a {
+  color: #5e686a;
+  font-size: 12px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.footer-ul ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#col-first {
+  padding-top: 25px;
+}
+
+#mt {
+  padding-top: 25px;
+}
+
+.footer-contact {
+  border-bottom: 1px solid #bdc3c7;
+  padding: 22px 0;
+  margin: 16px 0;
+  color: #ababac;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-contact a {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  color: #9d9d9e;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-copyright ul {
+  display: flex;
+  list-style: none;
+  width: auto;
+}
+
+.footer-copyright ul li {
+  margin: 0 10px;
+}
+
+.footer-copyright ul li a {
+  color: #9d9d9e;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-copyright ul li a:hover {
+  text-decoration: underline;
+}
+
+.ver-line {
+  height: 15px;
+  width: 1px;
+  background: #9d9d9e;
+}
+
+.footer-lang {
+  display: flex;
+  color: #78787a;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-lang p {
+  margin: 0 10px;
+}
